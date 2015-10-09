@@ -12,7 +12,7 @@ var Adjective = require('./lib/adjective.js');
 var Noun = require('./lib/noun.js');
 var adjective = new Adjective();
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 80;
 
 app.listen(port, function() {
   console.log('server started on port ' + port);
