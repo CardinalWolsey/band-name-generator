@@ -3,7 +3,7 @@ console.log('connected');
 $(function() {
 
   $('#name').click(function() {
-    $.get("http://localhost:3000/adjective", function (response) {
+    $.get("adjective", function (response) {
       $('#adjective').text(response.word);
     });
   });
