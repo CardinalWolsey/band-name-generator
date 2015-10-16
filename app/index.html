@@ -6,17 +6,38 @@
   </head>
   <body>
     <h3>Submit Words!</h3>
-    <form id="submitWords">
+    <form id="submitAdj">
       <label for="user-adjective">Give us an adjective:</label>
       <input type="text" name="adjective" id="user-adjective">
       <input type="submit" value="Submit Words">
     </form>
     <br>
     <p id="adjectiveRes"></p>
+    <br>
 
-    <button type="button" id="name">Get A Random Band Name!</button>
+    <form id="submitNoun">
+      <label for="user-noun">Give us a noun:</label>
+      <input type="text" name="noun" id="user-noun">
+      <input type="submit" value="Submit Words">
+    </form>
+    <br>
+    <p id="nounRes"></p>
+    <br>
+
+    <form id="submitVerb">
+      <label for="user-verb">Give us a verb:</label>
+      <input type="text" name="verb" id="user-verb">
+      <input type="submit" value="Submit Words">
+    </form>
+    <br>
+    <p id="verbRes"></p>
+    <br>
+
+    <button type="button" id="bandName">Get A Random Band Name!</button>
     <p>Your name:
       <span id="adjective"></span>
+      <span id="noun"></span>
+      <span id="verb"></span>
     </p>
 
 
